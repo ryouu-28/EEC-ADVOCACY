@@ -513,6 +513,15 @@ a {
 
 /*FOOTER*/
 
+a {
+    text-decoration: none;
+}
+.containerF {
+    display: flex;
+    justify-content: center;
+
+}
+
 footer{
     background-color: black;
     
@@ -526,7 +535,7 @@ footer a:hover {
     color: #bdbdbd;
 }
 
-footer .container{
+footer .containerF{
     padding: 50px;
     flex-wrap: wrap;
     border-bottom: 1px solid #fff;
@@ -580,7 +589,7 @@ footer img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+
     margin: 0 6rem;
 }
 .containers1 li{
